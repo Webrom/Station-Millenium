@@ -2,14 +2,13 @@
 //  Station_Millenium_Sur_iOSTests.swift
 //  Station_Millenium_Sur_iOSTests
 //
-//  Created by Romain Caron on 06/09/2016.
+//  Created by Romain Caron on 29/09/2016.
 //  Copyright © 2016 Station Millenium. All rights reserved.
 //
 
 import XCTest
-@testable import Station_Millenium_Sur_iOS
 
-class StationMilleniumIosTests: XCTestCase {
+class Station_Millenium_Sur_iOSTests: XCTestCase {
     
     override func setUp() {
         super.setUp()
@@ -28,7 +27,7 @@ class StationMilleniumIosTests: XCTestCase {
     
     func testPerformanceExample() {
         // This is an example of a performance test case.
-        self.measureBlock {
+        self.measure {
             // Put the code you want to measure the time of here.
         }
     }
