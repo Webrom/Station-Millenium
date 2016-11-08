@@ -20,6 +20,7 @@
 		7A7E71FE1D8431C00046F87B /* ProgrammeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7E71FD1D8431C00046F87B /* ProgrammeController.swift */; };
 		7A7E72001D8436A30046F87B /* PodcastController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7E71FF1D8436A30046F87B /* PodcastController.swift */; };
 		7A7E72021D843EBE0046F87B /* CTKOIController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7E72011D843EBE0046F87B /* CTKOIController.swift */; };
+		7A8508B71DD1C37E00C71C30 /* CTKOI_Result_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8508B61DD1C37E00C71C30 /* CTKOI_Result_ViewController.swift */; };
 		7AD1457A1D7EB34E007AED96 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD145791D7EB34E007AED96 /* AppDelegate.swift */; };
 		7AD145811D7EB34E007AED96 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AD1457F1D7EB34E007AED96 /* Main.storyboard */; };
 		7AD145831D7EB34E007AED96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AD145821D7EB34E007AED96 /* Assets.xcassets */; };
@@ -68,6 +69,7 @@
 		7A7E71FD1D8431C00046F87B /* ProgrammeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgrammeController.swift; sourceTree = "<group>"; };
 		7A7E71FF1D8436A30046F87B /* PodcastController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PodcastController.swift; path = ../PodcastController.swift; sourceTree = "<group>"; };
 		7A7E72011D843EBE0046F87B /* CTKOIController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CTKOIController.swift; path = ../CTKOIController.swift; sourceTree = "<group>"; };
+		7A8508B61DD1C37E00C71C30 /* CTKOI_Result_ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CTKOI_Result_ViewController.swift; sourceTree = "<group>"; };
 		7AD145761D7EB34E007AED96 /* Station_Millenium_Sur_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Station_Millenium_Sur_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AD145791D7EB34E007AED96 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7AD145801D7EB34E007AED96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -142,6 +144,7 @@
 				7A7E71FD1D8431C00046F87B /* ProgrammeController.swift */,
 				7A7E71FF1D8436A30046F87B /* PodcastController.swift */,
 				7AD1457F1D7EB34E007AED96 /* Main.storyboard */,
+				7A8508B61DD1C37E00C71C30 /* CTKOI_Result_ViewController.swift */,
 				7AD145821D7EB34E007AED96 /* Assets.xcassets */,
 				7AD145841D7EB34E007AED96 /* LaunchScreen.storyboard */,
 				7AD145871D7EB34E007AED96 /* Info.plist */,
@@ -271,6 +274,7 @@
 			files = (
 				7A7E71E71D81D09F0046F87B /* TitleInfos.swift in Sources */,
 				7A7E72021D843EBE0046F87B /* CTKOIController.swift in Sources */,
+				7A8508B71DD1C37E00C71C30 /* CTKOI_Result_ViewController.swift in Sources */,
 				7A7E71FA1D81E1E20046F87B /* RadioPlayer.swift in Sources */,
 				7A7E71FE1D8431C00046F87B /* ProgrammeController.swift in Sources */,
 				7A7E71E81D81D09F0046F87B /* XMLParser.swift in Sources */,
@@ -519,6 +523,7 @@
 				7AF8CE6C1D9D1F1500BFCC0B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

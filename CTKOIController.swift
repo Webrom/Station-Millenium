@@ -68,6 +68,13 @@ class CTKOIController: UITableViewController {
     @IBAction func datePickerValue(sender: UIDatePicker) {
         datePickerChanged()
     }
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        if (segue.identifier == "segueSearch"){
+            let newView = segue.destinationViewController as! CTKOI_Result_ViewController
+            newView.newDate = datePicker.date
+        }
+    }
     // MARK: - Table view data source
 
     /*
