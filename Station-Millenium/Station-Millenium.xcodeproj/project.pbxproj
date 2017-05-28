@@ -1,0 +1,547 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7AB1211C1E81BFBA00C7722A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB1211B1E81BFBA00C7722A /* AppDelegate.swift */; };
+		7AB1211E1E81BFBA00C7722A /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB1211D1E81BFBA00C7722A /* PlayerViewController.swift */; };
+		7AB121201E81BFBA00C7722A /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB1211F1E81BFBA00C7722A /* SecondViewController.swift */; };
+		7AB121231E81BFBA00C7722A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AB121211E81BFBA00C7722A /* Main.storyboard */; };
+		7AB121251E81BFBA00C7722A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AB121241E81BFBA00C7722A /* Assets.xcassets */; };
+		7AB121281E81BFBA00C7722A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AB121261E81BFBA00C7722A /* LaunchScreen.storyboard */; };
+		7AB121331E81BFBA00C7722A /* Station_MilleniumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB121321E81BFBA00C7722A /* Station_MilleniumTests.swift */; };
+		7AB1213E1E81BFBA00C7722A /* Station_MilleniumUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB1213D1E81BFBA00C7722A /* Station_MilleniumUITests.swift */; };
+		7AB1214D1E81C91300C7722A /* BaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB1214C1E81C91300C7722A /* BaseController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7AB1212F1E81BFBA00C7722A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7AB121101E81BFBA00C7722A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7AB121171E81BFBA00C7722A;
+			remoteInfo = "Station-Millenium";
+		};
+		7AB1213A1E81BFBA00C7722A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7AB121101E81BFBA00C7722A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7AB121171E81BFBA00C7722A;
+			remoteInfo = "Station-Millenium";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7AB121181E81BFBA00C7722A /* Station-Millenium.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Station-Millenium.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AB1211B1E81BFBA00C7722A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7AB1211D1E81BFBA00C7722A /* PlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
+		7AB1211F1E81BFBA00C7722A /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		7AB121221E81BFBA00C7722A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7AB121241E81BFBA00C7722A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7AB121271E81BFBA00C7722A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7AB121291E81BFBA00C7722A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AB1212E1E81BFBA00C7722A /* Station-MilleniumTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Station-MilleniumTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AB121321E81BFBA00C7722A /* Station_MilleniumTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Station_MilleniumTests.swift; sourceTree = "<group>"; };
+		7AB121341E81BFBA00C7722A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AB121391E81BFBA00C7722A /* Station-MilleniumUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Station-MilleniumUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AB1213D1E81BFBA00C7722A /* Station_MilleniumUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Station_MilleniumUITests.swift; sourceTree = "<group>"; };
+		7AB1213F1E81BFBA00C7722A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AB1214C1E81C91300C7722A /* BaseController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BaseController.swift; path = ControllerUtils/BaseController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7AB121151E81BFBA00C7722A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AB1212B1E81BFBA00C7722A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AB121361E81BFBA00C7722A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7AB1210F1E81BFBA00C7722A = {
+			isa = PBXGroup;
+			children = (
+				7AB1211A1E81BFBA00C7722A /* Station-Millenium */,
+				7AB121311E81BFBA00C7722A /* Station-MilleniumTests */,
+				7AB1213C1E81BFBA00C7722A /* Station-MilleniumUITests */,
+				7AB121191E81BFBA00C7722A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7AB121191E81BFBA00C7722A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7AB121181E81BFBA00C7722A /* Station-Millenium.app */,
+				7AB1212E1E81BFBA00C7722A /* Station-MilleniumTests.xctest */,
+				7AB121391E81BFBA00C7722A /* Station-MilleniumUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7AB1211A1E81BFBA00C7722A /* Station-Millenium */ = {
+			isa = PBXGroup;
+			children = (
+				7AB1214B1E81C8F000C7722A /* ControllerUtils */,
+				7AB1211B1E81BFBA00C7722A /* AppDelegate.swift */,
+				7AB1211D1E81BFBA00C7722A /* PlayerViewController.swift */,
+				7AB1211F1E81BFBA00C7722A /* SecondViewController.swift */,
+				7AB121211E81BFBA00C7722A /* Main.storyboard */,
+				7AB121241E81BFBA00C7722A /* Assets.xcassets */,
+				7AB121261E81BFBA00C7722A /* LaunchScreen.storyboard */,
+				7AB121291E81BFBA00C7722A /* Info.plist */,
+			);
+			path = "Station-Millenium";
+			sourceTree = "<group>";
+		};
+		7AB121311E81BFBA00C7722A /* Station-MilleniumTests */ = {
+			isa = PBXGroup;
+			children = (
+				7AB121321E81BFBA00C7722A /* Station_MilleniumTests.swift */,
+				7AB121341E81BFBA00C7722A /* Info.plist */,
+			);
+			path = "Station-MilleniumTests";
+			sourceTree = "<group>";
+		};
+		7AB1213C1E81BFBA00C7722A /* Station-MilleniumUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7AB1213D1E81BFBA00C7722A /* Station_MilleniumUITests.swift */,
+				7AB1213F1E81BFBA00C7722A /* Info.plist */,
+			);
+			path = "Station-MilleniumUITests";
+			sourceTree = "<group>";
+		};
+		7AB1214B1E81C8F000C7722A /* ControllerUtils */ = {
+			isa = PBXGroup;
+			children = (
+				7AB1214C1E81C91300C7722A /* BaseController.swift */,
+			);
+			name = ControllerUtils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7AB121171E81BFBA00C7722A /* Station-Millenium */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7AB121421E81BFBA00C7722A /* Build configuration list for PBXNativeTarget "Station-Millenium" */;
+			buildPhases = (
+				7AB121141E81BFBA00C7722A /* Sources */,
+				7AB121151E81BFBA00C7722A /* Frameworks */,
+				7AB121161E81BFBA00C7722A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Station-Millenium";
+			productName = "Station-Millenium";
+			productReference = 7AB121181E81BFBA00C7722A /* Station-Millenium.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7AB1212D1E81BFBA00C7722A /* Station-MilleniumTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7AB121451E81BFBA00C7722A /* Build configuration list for PBXNativeTarget "Station-MilleniumTests" */;
+			buildPhases = (
+				7AB1212A1E81BFBA00C7722A /* Sources */,
+				7AB1212B1E81BFBA00C7722A /* Frameworks */,
+				7AB1212C1E81BFBA00C7722A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7AB121301E81BFBA00C7722A /* PBXTargetDependency */,
+			);
+			name = "Station-MilleniumTests";
+			productName = "Station-MilleniumTests";
+			productReference = 7AB1212E1E81BFBA00C7722A /* Station-MilleniumTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7AB121381E81BFBA00C7722A /* Station-MilleniumUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7AB121481E81BFBA00C7722A /* Build configuration list for PBXNativeTarget "Station-MilleniumUITests" */;
+			buildPhases = (
+				7AB121351E81BFBA00C7722A /* Sources */,
+				7AB121361E81BFBA00C7722A /* Frameworks */,
+				7AB121371E81BFBA00C7722A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7AB1213B1E81BFBA00C7722A /* PBXTargetDependency */,
+			);
+			name = "Station-MilleniumUITests";
+			productName = "Station-MilleniumUITests";
+			productReference = 7AB121391E81BFBA00C7722A /* Station-MilleniumUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7AB121101E81BFBA00C7722A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Romain Caron";
+				TargetAttributes = {
+					7AB121171E81BFBA00C7722A = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = LFJLEKW624;
+						ProvisioningStyle = Automatic;
+					};
+					7AB1212D1E81BFBA00C7722A = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7AB121171E81BFBA00C7722A;
+					};
+					7AB121381E81BFBA00C7722A = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7AB121171E81BFBA00C7722A;
+					};
+				};
+			};
+			buildConfigurationList = 7AB121131E81BFBA00C7722A /* Build configuration list for PBXProject "Station-Millenium" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7AB1210F1E81BFBA00C7722A;
+			productRefGroup = 7AB121191E81BFBA00C7722A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7AB121171E81BFBA00C7722A /* Station-Millenium */,
+				7AB1212D1E81BFBA00C7722A /* Station-MilleniumTests */,
+				7AB121381E81BFBA00C7722A /* Station-MilleniumUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7AB121161E81BFBA00C7722A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AB121281E81BFBA00C7722A /* LaunchScreen.storyboard in Resources */,
+				7AB121251E81BFBA00C7722A /* Assets.xcassets in Resources */,
+				7AB121231E81BFBA00C7722A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AB1212C1E81BFBA00C7722A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AB121371E81BFBA00C7722A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7AB121141E81BFBA00C7722A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AB121201E81BFBA00C7722A /* SecondViewController.swift in Sources */,
+				7AB1211C1E81BFBA00C7722A /* AppDelegate.swift in Sources */,
+				7AB1214D1E81C91300C7722A /* BaseController.swift in Sources */,
+				7AB1211E1E81BFBA00C7722A /* PlayerViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AB1212A1E81BFBA00C7722A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AB121331E81BFBA00C7722A /* Station_MilleniumTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AB121351E81BFBA00C7722A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AB1213E1E81BFBA00C7722A /* Station_MilleniumUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7AB121301E81BFBA00C7722A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7AB121171E81BFBA00C7722A /* Station-Millenium */;
+			targetProxy = 7AB1212F1E81BFBA00C7722A /* PBXContainerItemProxy */;
+		};
+		7AB1213B1E81BFBA00C7722A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7AB121171E81BFBA00C7722A /* Station-Millenium */;
+			targetProxy = 7AB1213A1E81BFBA00C7722A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7AB121211E81BFBA00C7722A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7AB121221E81BFBA00C7722A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7AB121261E81BFBA00C7722A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7AB121271E81BFBA00C7722A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7AB121401E81BFBA00C7722A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7AB121411E81BFBA00C7722A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7AB121431E81BFBA00C7722A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LFJLEKW624;
+				INFOPLIST_FILE = "Station-Millenium/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fr.rcaron.Station-Millenium";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		7AB121441E81BFBA00C7722A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LFJLEKW624;
+				INFOPLIST_FILE = "Station-Millenium/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fr.rcaron.Station-Millenium";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		7AB121461E81BFBA00C7722A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Station-MilleniumTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fr.rcaron.Station-MilleniumTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Station-Millenium.app/Station-Millenium";
+			};
+			name = Debug;
+		};
+		7AB121471E81BFBA00C7722A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Station-MilleniumTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fr.rcaron.Station-MilleniumTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Station-Millenium.app/Station-Millenium";
+			};
+			name = Release;
+		};
+		7AB121491E81BFBA00C7722A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Station-MilleniumUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fr.rcaron.Station-MilleniumUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Station-Millenium";
+			};
+			name = Debug;
+		};
+		7AB1214A1E81BFBA00C7722A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Station-MilleniumUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fr.rcaron.Station-MilleniumUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Station-Millenium";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7AB121131E81BFBA00C7722A /* Build configuration list for PBXProject "Station-Millenium" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AB121401E81BFBA00C7722A /* Debug */,
+				7AB121411E81BFBA00C7722A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7AB121421E81BFBA00C7722A /* Build configuration list for PBXNativeTarget "Station-Millenium" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AB121431E81BFBA00C7722A /* Debug */,
+				7AB121441E81BFBA00C7722A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7AB121451E81BFBA00C7722A /* Build configuration list for PBXNativeTarget "Station-MilleniumTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AB121461E81BFBA00C7722A /* Debug */,
+				7AB121471E81BFBA00C7722A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7AB121481E81BFBA00C7722A /* Build configuration list for PBXNativeTarget "Station-MilleniumUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AB121491E81BFBA00C7722A /* Debug */,
+				7AB1214A1E81BFBA00C7722A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7AB121101E81BFBA00C7722A /* Project object */;
+}
